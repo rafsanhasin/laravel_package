@@ -1,0 +1,28 @@
+<?php
+
+namespace MyVendor\MyPackage;
+
+use App\Http\Controllers\Controller;
+
+class SkeletonClass extends Controller
+{
+    /**
+     * Create a new Skeleton Instance
+     */
+    public function __construct()
+    {
+        // constructor body
+    }
+
+    /**
+     * Friendly welcome
+     *
+     * @param string $phrase Phrase to return
+     *
+     * @return string Returns the phrase passed in
+     */
+    public function echoPhrase($phrase)
+    {
+        return "Echo from skeleton class ".$phrase;
+    }
+}
